@@ -1,9 +1,38 @@
-<html>
-    <head><meta charset="utf-8"></head><head><title> Nadeesh</title>
-    </head><body><h1> DIABETES PREDICTION SYSTEM</h1>
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Form</title>
+</head>
+<body>
+    <h1>Diabetes Prediction Form</h1>
+    <form action="/predict" method="post">
+        <label for="Pregnancies">Pregnancies:</label>
+        <input type="text" id="Pregnancies" name="pregnancies" required><br>
 
-            <h1>This is my first page</h1>
-        
-    
-</body></html>
+        <label for="Glucose">Glucose Level:</label>
+        <input type="text" id="Glucose" name="glucose" required><br>
+
+        <label for="BloodPressure">Blood Pressure:</label>
+        <input type="text" id="BloodPressure" name="bloodPressure" required><br>
+
+        <label for="SkinThickness">Skin Thickness:</label>
+        <input type="text" id="SkinThickness" name="skinThickness" required><br>
+
+        <label for="Insulin">Insulin:</label>
+        <input type="text" id="Insulin" name="insulin" required><br>
+
+        <label for="BMI">BMI:</label>
+        <input type="text" id="BMI" name="bmi" required><br>
+
+        <label for="DiabetesPedigreeFunction">Diabetes Pedigree Function:</label>
+        <input type="text" id="DiabetesPedigreeFunction" name="diabetesPedigreeFunction" required><br>
+
+        <label for="Age">Age:</label>
+        <input type="text" id="Age" name="age" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
